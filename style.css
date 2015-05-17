@@ -1,3 +1,15 @@
+body {
+	background-attachment: fixed;
+	background-image: url(forest.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 h1 {
 	color: Teal;
+	text-align: center;
+	font-size: 50;
+	font-family: monospace;
+
 }

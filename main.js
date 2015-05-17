@@ -11,7 +11,7 @@ var showSection1 = function() {
 
 var showSection2 = function() {
 	section1.style.display = "none";
-	section2.styple.display = "block";
+	section2.style.display = "block";
 };
 
 button1.addEventListener("click", function(e) {

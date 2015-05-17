@@ -1,8 +1,8 @@
 var section1 = document.getElementById("section1");
-var button1= document.getElementById(button1);
+var button1= document.getElementById("button1");
 
-var section2= document.getElementById(section2);
-var button2= document.getElementById(button2);
+var section2= document.getElementById("section2");
+var button2= document.getElementById("button2");
 
 var showSection1 = function() {
 	section1.style.display = "block";
@@ -15,7 +15,7 @@ var showSection2 = function() {
 };
 
 button1.addEventListener("click", function(e) {
-	showSection2 ();
+	showSection2();
 });
 
 button2.addEventListener("click", function(e) {
